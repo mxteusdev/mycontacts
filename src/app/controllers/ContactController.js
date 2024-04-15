@@ -62,7 +62,7 @@ class ContactController {
 
     const contact = await ContactsRepository.update(id, {
       name, email, phone, category_id
-    });
+    });oeiq
 
     res.json(contact);
   }
