@@ -7,7 +7,6 @@ class ContactController {
     const { orderBy } = req.query
     const contacts = await ContactsRepository.findAll(orderBy);
 
-
     res.json(contacts);
   }
 
